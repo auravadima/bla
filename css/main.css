@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+header {
+    width: 100%;
+    background-color: #656565;
+    text-align: center;
+}
+header > h1 {
+    font-size: 100px;
+    font-weight: 300;
+    padding-top: 100px;
+}
+header h1 > span {
+    font-weight: 800;
+}
+.about{
+    height: 900px;
+    background-color: black;
+}
+.photo {
+    width: 50%;
+    height: 900px;
+    float: right;
+    background: url(../img/first.jpg) no-repeat;
+    background-size: 100%;
+}
+.about_content {
+    float: left;
+    width: 50%;
+    height: 900px;
+    color: white;
+}
+.about_content  h1 {
+    font-size: 100px;
+    font-weight: 200;
+    padding-top: 100px;
+    text-align: center;
+}
+.about_content p {
+    padding-top: 100px;
+    font-size: 14px;
+    text-align: center;
+}
+.divider {
+    width: 200px;
+    height: 2px;
+    margin-top: 75px;
+    background-color:   #da491c;
+}
+.study {
+    background-color: #323232;
+    width: 100%;
+    height: 810px;
+    background-image: url(../img/study.jpg);
+    background-repeat: no-repeat;
+}
+.study_content h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 200;
+    padding-top: 100px;
+    text-align: center;
+}
+.study_content {
+    float: left;
+    width: 50%;
+}
+.table {
+    float: right;
+    height: 810px;
+    width: 50%;
+}
+table {
+    color: white;
+    font-size: 30px;
+    border-collapse: collapse;
+    empty-cells: hide;
+    text-align: left;
+}
+table h1 {
+    text-align: center;
+}
+tr, td, th{
+    border-bottom: 5px solid #da491c;
+    width: 100px;
+}
+.last
+ {
+    border-bottom: 0px;
+}
+td {
+    text-align: center;
+}
+tr {
+    height: 49px;
+}
+.coll1 {
+    width: 50%;
+}
+.bads {
+    width: 100%;
+    height: 150px;
+    background-color: #323232;
+}
+.bads h1 {
+    padding-top: 100px;
+    font-size: 100px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+.bad {
+    height: 780px;
+    width: 100%;
+    background-image: url(../img/like.jpg);
+    background-size: 100%
+}
+.hobbies {
+    width: 100%;
+    height: 3450px;
+    background-color: #323232
+}
+.hobbies h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 200;
+    padding-top: 100px;
+    text-align: center;
+}
+.left {
+    width: 700px;
+    height: 100%;
+    float: left;
+    background-image: url(../img/left.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.right {
+    width: 700px;
+    height:100%;
+    float: right;
+    background-image: url(../img/right.jpg);
+    background-size: 100%;
+}
+ul {
+ list-style-type: none;
+}
