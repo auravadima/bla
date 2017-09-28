@@ -579,6 +579,303 @@ function func() {}
             <p><input name="q66" type="radio">NaN</p>
             <p><input name="q66" type="radio">Ошибка выполнения скрипта</p>
         </div>
+        <div class="question">
+            <h3>67 (из 100). Как правильно вывести приветствие через 5 секунд после запуска скрипта?</h3>
+            <p><input name="q67" type="radio">sleep(5); alert("Привет!");</p>
+            <p><input name="q67" type="radio">setTimeout('alert("Привет!")', 5000);</p>
+            <p><input name="q67" type="radio">setTimeout(function() {alert("Привет!")}, 5);</p>
+            <p><input name="q67" type="radio">setInterval(function() {alert("Привет!")}, 5);</p>
+        </div>
+        <div class="question">
+            <h3>68 (из 100). Можно ли инициировать DOM-событие из javascript?</h3>
+            <h4>Например, сэмулировать клик мышкой на элементе, чтобы javascript-код кликнул за пользователя.</h4>
+            <p><input name="q68" type="radio">Да, можно</p>
+            <p><input name="q68" type="radio">Нет, нельзя</p>
+            <p><input name="q68" type="radio">Только в некоторых браузерах</p>
+        </div>
+        <div class="question">
+            <h3>69 (из 100). Какой из этих тагов соответствуют стандарту HTML (strict)?</h3>
+            <p><input name="q69" type="radio">&lt;script&gt;</p>
+            <p><input name="q69" type="radio">&lt;script type="text/javascript"&gt;</p>
+            <p><input name="q69" type="radio">&lt;script language="javascript"&gt;</p>
+            <p><input name="q69" type="radio">&lt;script language="javascript" type="text/javascript"&gt;</p>
+        </div>
+        <div class="question">
+            <h3>70 (из 100). Что из этого - не событие мыши?</h3>
+            <p><input name="q70" type="radio">*</p>
+            <p><input name="q70" type="radio">/</p>
+            <p><input name="q70" type="radio">+</p>
+            <p><input name="q70" type="radio">-</p>
+        </div>
+        <div class="question">
+            <h3>71 (из 100). Какой оператор из этих - выполняет не только математические операции?</h3>
+            <p><input name="q71" type="radio">onclick</p>
+            <p><input name="q71" type="radio">onmouseover</p>
+            <p><input name="q71" type="radio">onmousemove</p>
+            <p><input name="q71" type="radio">onmousescroll</p>
+        </div>
+        <div class="question">
+            <h3>72 (из 100). Какие конструкции для циклов есть в javascript?</h3>
+            <p><input name="q72" type="radio">Только две: for и while</p>
+            <p><input name="q72" type="radio">Только одна: for</p>
+            <p><input name="q72" type="radio">Три: for, while и do...while.</p>
+        </div>
+        <div class="question">
+            <h3>73 (из 100). В каком случае из перечисленных событие не попадет на обработку javascript?</h3>
+            <p><input name="q73" type="radio">Если в момент его наступления обрабатывается другое событие</p>
+            <p><input name="q73" type="radio">Если страничка просматривается локально, т.е offline</p>
+            <p><input name="q73" type="radio">Только если javascript отключен</p>
+        </div>
+        <div class="question">
+            <h3>74 (из 100). Что делает код:</h3>
+            <h4>break me;</h4>
+            <p><input name="q74" type="radio">Ломает интерпретатор javascript</p>
+            <p><input name="q74" type="radio">Выходит из текущего блока цикла или switch на метку "me"</p>
+            <p><input name="q74" type="radio">Выдает ошибку</p>
+            <p><input name="q74" type="radio">В разных браузерах по-разному</p>
+        </div>
+        <div class="question">
+            <h3>75 (из 100). Какой из этих вариантов задают массив из элементов "a", "b"?</h3>
+            <p><input name="q75" type="radio">var a = { "a", "b" }</p>
+            <p><input name="q75" type="radio">var a = ( "a", "b" )</p>
+            <p><input name="q75" type="radio">var a = [ "a", "b" ]</p>
+        </div>
+        <div class="question">
+            <h3>76 (из 100). Где в документе может располагаться тэг script по стандарту HTML?</h3>
+            <p><input name="q76" type="radio">Только в HEAD</p>
+            <p><input name="q76" type="radio">Только в BODY</p>
+            <p><input name="q76" type="radio">В HEAD или в BODY</p>
+            <p><input name="q76" type="radio">Где угодно, главное чтоб был</p>
+        </div>
+        <div class="question">
+            <h3>77 (из 100). Можно ли через javascript подключить внешний js-файл, отсутствующий на странице?</h3>
+            <p><input name="q77" type="radio">Да, но только один раз</p>
+            <p><input name="q77" type="radio">Да, но только до загрузки страницы</p>
+            <p><input name="q77" type="radio">Да, сколько угодно файлов когда угодно</p>
+        </div>
+        <div class="question">
+            <h3>78 (из 100). Можно ли в скрипте перевести посетителя на другую страницу сайта?</h3>
+            <p><input name="q78" type="radio">Да, куда угодно</p>
+            <p><input name="q78" type="radio">Да, но только в рамках текущего сайта</p>
+            <p><input name="q78" type="radio">Нет, нельзя</p>
+        </div>
+        <div class="question">
+            <h3>79 (из 100). Какие обработчики событий сработают при клике на div?</h3>
+            <pre>
+div.onclick = function() { alert(1) }
+div.onclick = function() { alert(2) }
+            </pre>
+            <p><input name="q79" type="radio">Только первый</p>
+            <p><input name="q79" type="radio">Только второй</p>
+            <p><input name="q79" type="radio">Первый, затем второй</p>
+        </div>
+        <div class="question">
+            <h3>80 (из 100). Правда ли что a == b ?</h3>
+            <pre>
+a = new Array(1,2,3)
+b = new Array(1,2,3)
+            </pre>
+            <p><input name="q80" type="radio">Правда</p>
+            <p><input name="q80" type="radio">Неправда</p>
+        </div>
+        <div class="question">
+            <h3>81 (из 100). Какая арифметическая операция приводит к ошибке в javascript?</h3>
+            <p><input name="q81" type="radio">Деление на ноль</p>
+            <p><input name="q81" type="radio">Умножение числа на строку</p>
+            <p><input name="q81" type="radio">Корень из отрицательного числа</p>
+            <p><input name="q81" type="radio">Никакая из вышеперечисленных</p>
+        </div>
+        <div class="question">
+            <h3>82 (из 100). Какая арифметическая операция приводит к ошибке в javascript?</h3>
+            <p><input name="q82" type="radio">Деление на ноль</p>
+            <p><input name="q82" type="radio">Умножение числа на строку</p>
+            <p><input name="q82" type="radio">Корень из отрицательного числа</p>
+            <p><input name="q82" type="radio">Никакая из вышеперечисленных</p>
+        </div>
+        <div class="question">
+            <h3>83 (из 100). Какова длина a.length массива a?</h3>
+            <pre>
+var a = []
+a[1] = 5
+a[3] = 53
+delete a[3]
+            </pre>
+            <p><input name="q83" type="radio">1</p>
+            <p><input name="q83" type="radio">3</p>
+            <p><input name="q83" type="radio">4</p>
+            <p><input name="q83" type="radio">Другое</p>
+        </div>
+        <div class="question">
+            <h3>84 (из 100). Что делает оператор ===?</h3>
+            <p><input name="q84" type="radio">Сравнивает по ссылке, а не по значению</p>
+            <p><input name="q84" type="radio">Сравнивает без приведения типа</p>
+            <p><input name="q84" type="radio">Нет такого оператора</p>
+        </div>
+        <div class="question">
+            <h3>85 (из 100). Чему равна переменная name?</h3>
+            <pre>var name = "пупкин".replace("п","д")</pre>
+            <p><input name="q85" type="radio">дудкин</p>
+            <p><input name="q85" type="radio">дупкин</p>
+            <p><input name="q85" type="radio">пупкин</p>
+        </div>
+        <div class="question">
+            <h3>86 (из 100). Чему равно a+b+c?</h3>
+            <pre>
+var a = 1
+var b = { toString:function() {return '1'} }
+var c = Object(1)
+            </pre>
+            <p><input name="q86" type="radio">11[object Object]</p>
+            <p><input name="q86" type="radio">2[object Object]</p>
+            <p><input name="q86" type="radio">111</p>
+            <p><input name="q86" type="radio">3</p>
+        </div>
+        <div class="question">
+            <h3>87 (из 100). Чему равно 2 && 1 && null && 0 && undefined?</h3>
+            <p><input name="q87" type="radio">2</p>
+            <p><input name="q87" type="radio">1</p>
+            <p><input name="q87" type="radio">null</p>
+            <p><input name="q87" type="radio">false</p>
+        </div>
+        <div class="question">
+            <h3>88 (из 100). Что выведет sayHi при вызове через setTimeout?</h3>
+            <pre>
+let name = "Вася";
+function sayHi() {
+    alert(name);
+}
+
+setTimeout(function() {
+    let name = "Петя";
+    sayHi();
+}, 1000);
+            </pre>
+            <p><input name="q88" type="radio">Вася</p>
+            <p><input name="q88" type="radio">Петя</p>
+            <p><input name="q88" type="radio">undefined</p>
+            <p><input name="q88" type="radio">Будет ошибка</p>
+        </div>
+        <div class="question">
+            <h3>89 (из 100). Чему равно это выражение?</h3>
+            <pre>[].push(1,2).unshift(3).join()</pre>
+            <p><input name="q89" type="radio">3,1</p>
+            <p><input name="q89" type="radio">1,2,3</p>
+            <p><input name="q89" type="radio">3,1,2</p>
+            <p><input name="q89" type="radio">В коде ошибка</p>
+        </div>
+        <div class="question">
+            <h3>90 (из 100). Что выведет alert?</h3>
+            <pre>
+let str = "Hello";
+str.something = 5;
+alert(str.something);
+            </pre>
+            <p><input name="q90" type="radio">5</p>
+            <p><input name="q90" type="radio">undefined</p>
+            <p><input name="q90" type="radio">будет ошибка</p>
+        </div>
+        <div class="question">
+            <h3>91 (из 100). Верно ли сравнение: "ёжик" > "яблоко"?</h3>
+            <p><input name="q91" type="radio">Да</p>
+            <p><input name="q91" type="radio">Нет</p>
+            <p><input name="q91" type="radio">Зависит от локальных настроек браузера</p>
+        </div>
+        <div class="question">
+            <h3>92 (из 100). Что выведет этот код?</h3>
+            <pre>
+for(let i=0; i&lt;10; i++) {
+    setTimeout(function() {
+        alert(i);
+    }, 100);
+}
+            </pre>
+            <p><input name="q92" type="radio">Числа от 0 до 9</p>
+            <p><input name="q92" type="radio">Числа от 0 до 10</p>
+            <p><input name="q92" type="radio">10 раз число 0</p>
+            <p><input name="q92" type="radio">10 раз число 10</p>
+        </div>
+        <div class="question">
+            <h3>93 (из 100). Что будет выведено в консоль?</h3>
+            <pre>
+var aString = { job: "I'm a String!"};
+console.log(typeof aString);
+            </pre>
+            <p><input name="q93" type="radio">string</p>
+            <p><input name="q93" type="radio">number</p>
+            <p><input name="q93" type="radio">object</p>
+            <p><input name="q93" type="radio">undefined</p>
+        </div>
+        <div class="question">
+            <h3>94 (из 100). Какое сообщение выведет следующий фрагмент кода?</h3>
+            <pre>
+var a; 
+switch(a) 
+{ 
+    case 0:  
+        alert('0');  
+        break; 
+    case null:  
+        alert('null');  
+        break; 
+    case undefined:  
+        alert('undefined');  
+        break; 
+    default: 
+        alert('something else'); 
+} 
+            </pre>
+            <p><input name="q94" type="radio">0</p>
+            <p><input name="q94" type="radio">null</p>
+            <p><input name="q94" type="radio">undefined</p>
+            <p><input name="q94" type="radio">Другое</p>
+        </div>
+        <div class="question">
+            <h3>95 (из 100). Каким html-тегом можно подключить внешний javascript?</h3>
+            <p><input name="q95" type="radio">&lt;include&gt;</p>
+            <p><input name="q95" type="radio">&lt;js&gt;</p>
+            <p><input name="q95" type="radio">&lt;link&gt;</p>
+            <p><input name="q95" type="radio">&lt;script&gt;</p>
+        </div>
+        <div class="question">
+            <h3>96 (из 100). Что выведет на экран следующий код?</h3>
+            <pre>alert(Math.floor(Math.random()));</pre>
+            <p><input name="q96" type="radio">0</p>
+            <p><input name="q96" type="radio">1</p>
+            <p><input name="q96" type="radio">Большое целое число></p>
+        </div>
+        <div class="question">
+            <h3>97 (из 100). Каким будет результат?</h3>
+            <pre>alert( true + "test" ); </pre>
+            <p><input name="q97" type="radio">truetest</p>
+            <p><input name="q97" type="radio">testtrue</p>
+            <p><input name="q97" type="radio">test</p>
+            <p><input name="q97" type="radio">true</p>
+        </div>
+        <div class="question">
+            <h3>98 (из 100). Выберите правильно составленный условный оператор</h3>
+            <p><input name="q98" type="radio">if (i == 5) then {}</p>
+            <p><input name="q98" type="radio">unless (i != 5) {}</p>
+            <p><input name="q98" type="radio">if i == 5 then {}</p>
+            <p><input name="q98" type="radio">if (i == 5) {}</p>
+        </div>
+        <div class="question">
+            <h3>99 (из 100). Выберите правильный вариант результата сортировки чисел в массиве</h3>
+            <pre>
+var n = [4, 6, 19, 34, 32]; 
+n.sort();
+            </pre>
+            <p><input name="q99" type="radio">// n is [4, 6, 19, 32, 34]</p>
+            <p><input name="q99" type="radio">//n is [19, 32, 34, 4, 6]</p>
+            <p><input name="q99" type="radio">//n is [4, 6, 19, 34, 32]</p>
+            <p><input name="q99" type="radio">//n is [34, 32, 19, 6, 4]</p>
+        </div>
+        <div class="question">
+            <h3>100 (из 100). Какое событие не вызывается кликом мыши?</h3>
+            <p><input name="q100" type="radio">onclick</p>
+            <p><input name="q100" type="radio">onfocus</p>
+            <p><input name="q100" type="radio">onmousedown</p>
+            <p><input name="q100" type="radio">onkeydown</p>
+        </div>
       </form>
       <button class="subm" onclick="ready();">Получить результат</button>
       <script src="js/main.js"></script>
