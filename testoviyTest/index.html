@@ -8,7 +8,6 @@
       <title>Тест</title>
    </head>
    <body>
-       l
       <form name="test" method=post>
          <div class="question">
             <h3>1 (из 100) Какой тег из перечесленных не является основным (обязательным)</h3>
@@ -25,11 +24,8 @@
             <p><input name="q2" type="radio">RADIO</p>
          </div>
          <div class="question">
-            <h3>3 (из 100). Какие графические форматы вы можете использовать в HTML-страничке?</h3>
-            <p><input name="q3" type="radio">MAX, FLA</p>
-            <p><input name="q3" type="radio">CDR, PDF</p>
-            <p><input name="q3" type="radio">GIF, JPEG</p>
-            <p><input name="q3" type="radio">OBJ, NEF</p>
+            <h3>3 (из 100). Требуется задать цвет заголовка зеленым. Какое стилевое свойство подойдет для этой цели?</h3>
+            <p><input name="q3" type="text"></p>
          </div>
          <div class="question">
             <h3>4 (из 100). Какой тег из перечисленных не является параметром тега FONT?</h3>
@@ -68,10 +64,7 @@
          </div>
          <div class="question">
             <h3>9 (из 100). Какой тег встраивает изображение в файл?</h3>
-            <p><input name="q9" type="radio">TABLE</p>
-            <p><input name="q9" type="radio">ALIGN</p>
-            <p><input name="q9" type="radio">IMG</p>
-            <p><input name="q9" type="radio">ALT</p>
+            <p><input name="q9" type="text"></p>
          </div>
          <div class="question">
             <h3>10 (из 100). Какой тег не является тегом форматирования ТАБЛИЦЫ?</h3>
@@ -96,9 +89,7 @@
          </div>
          <div class="question">
             <h3>13 (из 100). Какой тег является тегом организации заголовка таблицы?</h3>
-            <p><input name="q13" type="radio">CAPTION</p>
-            <p><input name="q13" type="radio">CELLPADDING</p>
-            <p><input name="q13" type="radio">COLSPAN</p>
+            <p><input name="q13" type="text"></p>
          </div>
          <div class="question">
             <h3>14 (из 100). Какой тег объединяет несколько строк в таблице?</h3>
@@ -136,11 +127,11 @@
             <p><input name="q18" type="radio">TARGET</p>
          </div>
          <div class="question">
-            <h3>19 (из 100). Какой тег не является параметром тега FRAMESET?</h3>
-            <p><input name="q19" type="radio">ROWS</p>
-            <p><input name="q19" type="radio">COORDS</p>
-            <p><input name="q19" type="radio">COLS</p>
-            <p><input name="q19" type="radio">TARGET</p>
+            <h3>19 (из 100). Выберите все универсальные атрибуты тегов</h3>
+            <p><input name="q19" type="checkbox">CLASS</p>
+            <p><input name="q19" type="checkbox">ID</p>
+            <p><input name="q19" type="checkbox">TABINDEX</p>
+            <p><input name="q19" type="checkbox">AUTOFOCUS</p>
          </div>
          <div class="question">
             <h3>20 (из 100). Обязательный параметр тега FRAME?</h3>
@@ -200,10 +191,7 @@
          </div>
          <div class="question">
             <h3>28 (из 100). Какой тег определяет фоновую картинку?</h3>
-            <p><input name="q28" type="radio">BGCOLOR</p>
-            <p><input name="q28" type="radio">LINK</p>
-            <p><input name="q28" type="radio">TEXT</p>
-            <p><input name="q28" type="radio">BACKGROUND</p>
+            <p><input name="q28" type="text"></p>
          </div>
          <div class="question">
             <h3>29 (из 100). Какой тег не определяет цвет ссылки?</h3>
@@ -214,17 +202,11 @@
          </div>
          <div class="question">
             <h3>30 (из 100). Какой параметр тега определяет ширину?</h3>
-            <p><input name="q30" type="radio">ROWS</p>
-            <p><input name="q30" type="radio">HEIGHT</p>
-            <p><input name="q30" type="radio">WIDTH</p>
-            <p><input name="q30" type="radio">RIGHT</p>
+            <p><input name="q30" type="text"></p>
          </div>
          <div class="question">
             <h3>31 (из 100). Какой параметр тега определяет высоту?</h3>
-            <p><input name="q31" type="radio">ROWS</p>
-            <p><input name="q31" type="radio">HEIGHT</p>
-            <p><input name="q31" type="radio">WIDTH</p>
-            <p><input name="q31" type="radio">RIGHT</p>
+            <p><input name="q31" type="text"></p>
          </div>
          <div class="question">
             <h3>32 (из 100). Тег рамка(окантовка)?</h3>
@@ -390,15 +372,16 @@ P { color: green; }
             <p><input name="q45" type="radio">Никогда, это недопустимо</p>
         </div>
         <div class="question">
-            <h3>46 (из 100). Какой стиль установит красный цвет текста в абзаце?</h3>
-            <p><input name="q46" type="radio">P * { color: red; }</p>
-            <p><input name="q46" type="radio">HTML * P { color: red; }</p>
-            <p><input name="q46" type="radio">BODY P * { color: red; }</p>
-            <p><input name="q46" type="radio">BODY * P {color: red; }</p>
+            <h3>46 (из 100). Укажите абсолютные единицы измерения</h3>
+            <p><input name="q46" type="checkbox">px</p>
+            <p><input name="q46" type="checkbox">pt</p>
+            <p><input name="q46" type="checkbox">in</p>
+            <p><input name="q46" type="checkbox">cm</p>
+            <p><input name="q46" type="checkbox">em</p>
         </div>
         <div class="question">
             <h3>47 (из 100). Что означает следующая запись в стилях?</h3>
-            <H2>* DIV * { background: green; }</H2>
+            <H4>* DIV * { background: green; }</H4>
             <p><input name="q47" type="radio">Установить фоновый цвет только для тегов &ltdiv;&gt;, вложенных в другие контейнеры</p>
             <p><input name="q47" type="radio">Задать цвет для всех текстовых элементов документа</p>
             <p><input name="q47" type="radio">Установить фоновый цвет для всех элементов внутри контейнера &lt;div&gt;</p>
@@ -412,18 +395,22 @@ P { color: green; }
             <p><input name="q48" type="radio">p.new.back:after</p>
         </div>
         <div class="question">
-            <h3>49 (из 100). Олег сделал ссылки, которые меняют цвет фона при наведении на них курсора мыши. Для этого он использовал следующий стиль:</h3>
+            <h3>49 (из 100). Что произойдет с текстом "Some text" после добавления стилей:</h3>
     <pre>
-A { color: blue; background: orange; } 
-A:hover { background: yellow; color: black; }
-A:visited { color: white; }
-A:active { color: red; }
+&lt;style&gt;
+    .text { 
+        margin: 15px; 
+    }
+&lt;/style&gt;
+
+&lt;span class="text"&gt;Some text&lt;/span&gt;
     </pre>
-                    <h4>Однако некоторые ссылки при наведении на них курсора не меняли свой цвет на черный. Почему?</h4>
-            <p><input name="q49" type="radio">Код CSS не валидный</p>
-            <p><input name="q49" type="radio">Псевдокласс :active стоит после :hover</p>
-            <p><input name="q49" type="radio">Псевдокласс :visited стоит после :hover</p>
-            <p><input name="q49" type="radio">К селектору A не добавлен псевдокласс :link</p>
+            <p><input name="q49" type="checkbox">Появится отступ слева размером 15px</p>
+            <p><input name="q49" type="checkbox">Появится отступ справа размером 15px</p>
+            <p><input name="q49" type="checkbox">Появится отступ сверху размером 15px</p>
+            <p><input name="q49" type="checkbox">Появится отступ снизу размером 15px</p>
+            <p><input name="q49" type="checkbox">Появится отступ со всех сторон размером 15px</p>
+            <p><input name="q49" type="checkbox">Ничего не произойдёт</p>
         </div>
         <div class="question">
             <h3>50 (из 100). Требуется выделить фоновым цветом первую строку таблицы. Какой псевдокласс для этой цели подойдет?</h3>
@@ -433,12 +420,12 @@ A:active { color: red; }
             <p><input name="q50" type="radio">:hover</p>
         </div>
         <div class="question">
-            <h3>51 (из 100). К каким элементам добавляет стиль следующая конструкция — A:link:visited:hover ?</h3>
-            <p><input name="q51" type="radio">К непосещённым ссылкам</p>
-            <p><input name="q51" type="radio">Ни к одному элементу</p>
-            <p><input name="q51" type="radio">К посещённым при наведении на них курсора мыши</p>
-            <p><input name="q51" type="radio">К посещённым ссылкам</p>
-            <p><input name="q51" type="radio">К любым ссылкам при наведении на них курсора мыши</p>
+            <h3>51 (из 100). Способы задания цвета в CSS3:</h3>
+            <p><input name="q51" type="checkbox">HSL</p>
+            <p><input name="q51" type="checkbox">RGBA</p>
+            <p><input name="q51" type="checkbox">RGB - десятичная запись</p>
+            <p><input name="q51" type="checkbox">Ключевое слово</p>
+            <p><input name="q51" type="checkbox">RGB - шестнадцатеричная запись</p>
         </div>
         <div class="question">
             <h3>52 (из 100). Какой псевдоэлемент позволяет добавить текст в начало предложения?</h3>
@@ -450,10 +437,7 @@ A:active { color: red; }
         </div>
         <div class="question">
             <h3>53 (из 100). Какое свойство используется для задания внутренних отступов у блока?</h3>
-            <p><input name="q53" type="radio">margin</p>
-            <p><input name="q53" type="radio">position</p>
-            <p><input name="q53" type="radio">direction</p>
-            <p><input name="q53" type="radio">padding</p>
+            <p><input name="q53" type="text"></p>
         </div>
         <div class="question">
             <h3>54 (из 100). Есть такой CSS-код: body {font-size: 14pt;} p {font-size: 2em;}. Какой размер текста будет в теге &lt;p&gt;:</h3>
@@ -501,10 +485,7 @@ A:active { color: red; }
         </div>
         <div class="question">
             <h3>60 (из 100). Какая функция вызывает окно с предупреждающим сообщением?</h3>
-            <p><input name="q60" type="radio">promt()</p>
-            <p><input name="q60" type="radio">prompt()</p>
-            <p><input name="q60" type="radio">alert()</p>
-            <p><input name="q60" type="radio">confirm()</p>
+            <p><input name="q60" type="text"></p>
         </div>
         <div class="question">
             <h3>61 (из 100). Какое значение вернёт функция, если в качестве параметра будет передано число 5: </h3>
@@ -516,10 +497,7 @@ A:active { color: red; }
     }
 &lt;/script&gt;
             </pre>
-            <p><input name="q61" type="radio">10</p>
-            <p><input name="q61" type="radio">15</p>
-            <p><input name="q61" type="radio">20</p>
-            <p><input name="q61" type="radio">5</p>
+            <p><input name="q61" type="text"></p>
         </div>
         <div class="question">
             <h3>62 (из 100). Константин написал следующий код: </h3>
@@ -551,11 +529,11 @@ function func() {}
             <p><input name="q63" type="radio">Оба варианта правильные.</p>
         </div>
         <div class="question">
-            <h3>64 (из 100). Какое из утверждений о комментариях верное?</h3>
-            <p><input name="q64" type="radio">Комментарии упрощают понимание скрипта.</p>
-            <p><input name="q64" type="radio">Комментарии увеличивают скорость выполнения скрипта.</p>
-            <p><input name="q64" type="radio">В JavaScript нельзя использовать комментарии.</p>
-            <p><input name="q64" type="radio">Комментарии уменьшают размер исходного кода.</p>
+            <h3>64 (из 100). Выберите правильные утверждения</h3>
+            <p><input name="q64" type="checkbox">NaN === NaN is false</p>
+            <p><input name="q64" type="checkbox">NaN === NaN is true</p>
+            <p><input name="q64" type="checkbox">NaN !== NaN is true</p>
+            <p><input name="q64" type="checkbox">NaN !== NaN is false</p>
         </div>
         <div class="question">
             <h3>65 (из 100). Какая разница между функциями<br> setInterval() и setTimeout()?</h3>
@@ -603,17 +581,17 @@ function func() {}
         </div>
         <div class="question">
             <h3>70 (из 100). Что из этого - не событие мыши?</h3>
-            <p><input name="q70" type="radio">*</p>
-            <p><input name="q70" type="radio">/</p>
-            <p><input name="q70" type="radio">+</p>
-            <p><input name="q70" type="radio">-</p>
+            <p><input name="q70" type="radio">onclick</p>
+            <p><input name="q70" type="radio">onmouseover</p>
+            <p><input name="q70" type="radio">onmousemove</p>
+            <p><input name="q70" type="radio">onmousescroll</p>
         </div>
         <div class="question">
             <h3>71 (из 100). Какой оператор из этих - выполняет не только математические операции?</h3>
-            <p><input name="q71" type="radio">onclick</p>
-            <p><input name="q71" type="radio">onmouseover</p>
-            <p><input name="q71" type="radio">onmousemove</p>
-            <p><input name="q71" type="radio">onmousescroll</p>
+            <p><input name="q71" type="radio">*</p>
+            <p><input name="q71" type="radio">/</p>
+            <p><input name="q71" type="radio">+</p>
+            <p><input name="q71" type="radio">-</p>
         </div>
         <div class="question">
             <h3>72 (из 100). Какие конструкции для циклов есть в javascript?</h3>
@@ -701,10 +679,7 @@ a[1] = 5
 a[3] = 53
 delete a[3]
             </pre>
-            <p><input name="q83" type="radio">1</p>
-            <p><input name="q83" type="radio">3</p>
-            <p><input name="q83" type="radio">4</p>
-            <p><input name="q83" type="radio">Другое</p>
+            <p><input name="q83" type="text"></p>
         </div>
         <div class="question">
             <h3>84 (из 100). Что делает оператор ===?</h3>
@@ -715,9 +690,7 @@ delete a[3]
         <div class="question">
             <h3>85 (из 100). Чему равна переменная name?</h3>
             <pre>var name = "пупкин".replace("п","д")</pre>
-            <p><input name="q85" type="radio">дудкин</p>
-            <p><input name="q85" type="radio">дупкин</p>
-            <p><input name="q85" type="radio">пупкин</p>
+            <p><input name="q85" type="text"></p>
         </div>
         <div class="question">
             <h3>86 (из 100). Чему равно a+b+c?</h3>
@@ -733,10 +706,7 @@ var c = Object(1)
         </div>
         <div class="question">
             <h3>87 (из 100). Чему равно 2 && 1 && null && 0 && undefined?</h3>
-            <p><input name="q87" type="radio">2</p>
-            <p><input name="q87" type="radio">1</p>
-            <p><input name="q87" type="radio">null</p>
-            <p><input name="q87" type="radio">false</p>
+            <p><input name="q87" type="text"></p>
         </div>
         <div class="question">
             <h3>88 (из 100). Что выведет sayHi при вызове через setTimeout?</h3>
@@ -880,6 +850,6 @@ n.sort();
       </form>
       <button class="subm" onclick="ready();">Получить результат</button>
       <script id="script"></script>
-      <script src="js/test.js"></script>
+      <script src="js/blablabla.js"></script>
    </body>
 </html>
