@@ -44,3 +44,15 @@ h3{
 pre {
     margin-left: 10px;
 }
+
+#answer {
+    text-align: center;
+    visibility: hidden;
+    background-color: white;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+}
